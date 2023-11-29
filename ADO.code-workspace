@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"authenticator": "SNOWFLAKE",
+				"ocspOptions": {
+					"ocspFailOpen": true
+				},
+				"snowflakeOptions": {
+					"clientSessionKeepAlive": true,
+					"clientSessionKeepAliveHeartbeatFrequency": 3600,
+					"schema": "pricesmart"
+				},
+				"previewLimit": 50,
+				"driver": "Snowflake",
+				"name": "just4jcgeorge",
+				"account": "ggwnqus-lw63557",
+				"username": "just4jcgeorge",
+				"password": "Evident9-Skirmish-Numerous-Blinking-Mascot-Shining-Shoplift",
+				"database": "RAW",
+				"warehouse": "TRANSFORM"
+			}
+		],
+		"dbt.queryLimit": 500,
+		"dbt.enableNewLineagePanel": false
+	}
+}
